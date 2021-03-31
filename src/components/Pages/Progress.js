@@ -13,20 +13,22 @@ export default function Progress() {
         <div>
           <TopBar />
         </div>
-        <div className="container mx-auto w-10/12">
+        <div className="container mx-auto">
           <div>
             <h1 className="text-4xl mb-9 font-extrabold text-cardTitle">Progress</h1>
           </div>
-          <div className="grid  md:grid-cols-1 xl:grid-cols-2 grid-rows-2 gap-4">
+          <div className="grid  md:grid-cols-1 xl:grid-cols-2 grid-rows-1 gap-4">
             <Statistics />
             <div className="grid  grid-cols-1 grid-rows-2 gap-4">
               <Skills />
               <Awards />
             </div>
           </div>
+          <div className="grid  grid-cols-3 grid-rows-1 gap-5 mt-10">
+            <ProgressCourses />
+          </div>
         </div>
-        <ProgressCourses />
-        {/* </div> */}
+
       </div>
     </>
   )
