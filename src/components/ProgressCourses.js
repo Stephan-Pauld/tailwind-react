@@ -8,15 +8,11 @@ import lessonImg from '../assets/images/skills/writing.svg'
 export default function ProgressCourses() {
   return (
     <>
-      {/* <div>
-        <h1 className="text-4xl mb-0 ml-2 2xl:ml-56 xl:ml-40 mt-12 mb-9 font-extrabold text-cardTitle">My Courses</h1>
-      </div> */}
-      {/* <div className="flex 2xl:ml-52 xl:ml-40"> */}
       <div className="flex flex-col justify-between bg-white shadow-md rounded rounded-md">
 
         <div className="flex items-center justify-between ml-4 mr-4 mt-3">
           <h4 className="text-2xl font-semibold text-cardTitle">Regular<br /> Expressions</h4>
-          <h6 className="text-white transition duration-700 ease-in-out bg-gray-500 w-20 text-center rounded-md p-0.5 hover:bg-gray-400 cursor-pointer">Start</h6>
+          <h6 className=" text-white transition duration-700 ease-in-out bg-gray-500 w-20 text-center rounded-md p-0.5 hover:bg-gray-400 cursor-pointer">Start</h6>
         </div>
         <div className="flex flex-col items-end">
           <img className="w-20 mr-4 mb-4" src={struggle} alt="" />
@@ -47,7 +43,7 @@ export default function ProgressCourses() {
 
         <div className="flex items-center justify-between ml-4 mr-4 mt-3">
           <h4 className="text-2xl font-semibold text-cardTitle" >Password <br /> Hashing</h4>
-          <h6 className="text-white transition duration-700 ease-in-out bg-gray-500 w-20 text-center rounded-md p-0.5 hover:bg-gray-400 cursor-pointer">Start</h6>
+          <h6 className=" text-white transition duration-700 ease-in-out bg-gray-500 w-20 text-center rounded-md p-0.5 hover:bg-gray-400 cursor-pointer">Start</h6>
         </div>
         <div className="flex flex-col items-end">
           <img className="w-20 mr-4 mb-4" src={homeWork} alt="" />
@@ -79,7 +75,7 @@ export default function ProgressCourses() {
 
         <div className="flex items-center justify-between ml-4 mr-4 mt-3">
           <h4 className="text-2xl font-semibold text-cardTitle">SQL<br /> Injections</h4>
-          <h6 className="text-white transition duration-700 ease-in-out bg-gray-500 w-20 text-center rounded-md p-0.5 hover:bg-gray-400 cursor-pointer">Start</h6>
+          <h6 className=" text-white transition duration-700 ease-in-out bg-gray-500 w-20 text-center rounded-md p-0.5 hover:bg-gray-400 cursor-pointer">Start</h6>
         </div>
         <div className="flex flex-col items-end">
           <img className="w-20 mr-4 mb-4" src={presentation} alt="" />

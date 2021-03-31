@@ -61,11 +61,11 @@ export default function Statistics() {
         </div>
       </div>
       <div className="md:flex justify-between bg-gray-100 p-5 rounded-b-md">
-        <button onClick={() => setProgress(35)} className="transition duration-700 ease-in-out bg-gray-500 hover:bg-gray-400 w-40 rounded-md text-white py-2 font-semibold" >Click For 35%</button>
+        <button onClick={() => setProgress(35)} className="shadow-xl transition duration-700 ease-in-out bg-gray-500 hover:bg-gray-400 w-40 rounded-md text-white py-2 font-semibold" >Click For 35%</button>
 
-        <button onClick={() => setProgress(75)} className="transition duration-700 ease-in-out bg-gray-500 hover:bg-gray-400 w-40 rounded-md text-white py-2 font-semibold" >Click For 75%</button>
+        <button onClick={() => setProgress(75)} className="shadow-xl transition duration-700 ease-in-out bg-gray-500 hover:bg-gray-400 w-40 rounded-md text-white py-2 font-semibold" >Click For 75%</button>
 
-        <button onClick={() => setProgress(5)} className="transition duration-700 ease-in-out bg-gray-500 hover:bg-gray-400 w-40 rounded-md text-white py-2 font-semibold" >Click For 5%</button>
+        <button onClick={() => setProgress(5)} className="shadow-xl transition duration-700 ease-in-out bg-gray-500 hover:bg-gray-400 w-40 rounded-md text-white py-2 font-semibold" >Click For 5%</button>
       </div>
     </div>
   )

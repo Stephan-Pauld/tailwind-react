@@ -1,5 +1,5 @@
 import React from 'react'
-import threatHunter from '../assets/images/skills/Threathunter.svg'
+import awardBanner from '../assets/images/skills/awardBanner.png'
 
 export default function Awards() {
   return (
@@ -14,11 +14,11 @@ export default function Awards() {
           <div className="flex justify-evenly">
             <div className="flex items-center">
               <div>
-                <img className="h-20" src={threatHunter} alt="" />
+                <img className="w-28" src={awardBanner} alt="" />
               </div>
 
               <div className="flex flex-col w-80 ml-12">
-                <h4 className="text-xl font-semibold text-cardTitle">Award Title</h4>
+                <h4 className="text-xl font-semibold text-cardTitle mb-2">Be <span className="text-red-800 border-b-2 border-red-900">Fierce!</span></h4>
                 <p className="text-cardSub">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus voluptates nulla officiis.</p>
                 <div className=" w-11/12 bg-gray-400 rounded">
                   <div className="h-2 w-52 bg-buttonBg rounded">
