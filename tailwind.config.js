@@ -11,6 +11,9 @@ module.exports = {
         cardBg: '#fff',
         buttonBg: '#0C6B58',
         buttonText: '#EFFCF6',
+        wyBlue: '#102A43',
+        wyLtBlue: '#486581',
+        wyLtGreen: '#8EEDC7',
       },
       fontFamily: {
         body: ['Noto Sans TC']

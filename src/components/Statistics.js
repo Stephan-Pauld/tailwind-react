@@ -4,8 +4,8 @@ export default function Statistics() {
 
   const [progress, setProgress] = useState(50)
   return (
-    <>
-      <div className="flex flex-col justify-between bg-cardBg w-100 h-96 shadow-md rounded-md">
+    <div>
+      <div className="flex flex-col justify-between bg-cardBg h-96 shadow-md rounded-t-md">
         <div className="flex justify-between items-center">
           <h3 className="m-5 text-xl font-semibold text-cardTitle">Statistics</h3>
           <h5 className="m-5 text-cardSub">More</h5>
@@ -38,27 +38,35 @@ export default function Statistics() {
         </div>
         <div className="flex justify-around items-end mb-10">
           <div>
-            <h4 className="font-semibold text-cardTitle">25%</h4>
+            <div className="flex items-center justify-start">
+              <div className="w-3 h-3 bg-wyBlue rounded-xl mt-1 mr-3" />
+              <h4 className="font-semibold text-cardTitle">25%</h4>
+            </div>
             <h6 className="text-cardSub">completed</h6>
           </div>
           <div>
-            <h4 className="font-semibold text-cardTitle">25%</h4>
+            <div className="flex items-center justify-start">
+              <div className="w-3 h-3 bg-wyLtBlue rounded-xl mt-1 mr-3" />
+              <h4 className="font-semibold text-cardTitle">25%</h4>
+            </div>
             <h6 className="text-cardSub">in progress</h6>
           </div>
           <div>
-            <h4 className="font-semibold text-cardTitle">50%</h4>
+            <div className="flex items-center justify-start">
+              <div className="w-3 h-3 bg-wyLtGreen rounded-xl mt-1 mr-3" />
+              <h4 className="font-semibold text-cardTitle">50%</h4>
+            </div>
             <h6 className="text-cardSub">remaining</h6>
           </div>
         </div>
       </div>
-      <div className="flex justify-evenly mt-2 ">
+      <div className="md:flex justify-between bg-gray-100 p-5 rounded-b-md">
+        <button onClick={() => setProgress(35)} className="bg-gray-500 w-40 rounded-md text-white py-2 font-semibold" >Click For 35%</button>
 
-        <button onClick={() => setProgress(35)} className="shadow-2xl border-green bg-blue-200 w-40 h-8 rounded-xl" >Click For 35%</button>
+        <button onClick={() => setProgress(75)} className="bg-gray-500 w-40 rounded-md text-white py-2 font-semibold" >Click For 75%</button>
 
-        <button onClick={() => setProgress(75)} className="bg-blue-200 w-40 rounded-xl" >Click For 75%</button>
-
-        <button onClick={() => setProgress(5)} className="bg-blue-200 w-40 rounded-xl" >Click For 5%</button>
+        <button onClick={() => setProgress(5)} className="bg-gray-500 w-40 rounded-md text-white py-2 font-semibold" >Click For 5%</button>
       </div>
-    </>
+    </div>
   )
 }
