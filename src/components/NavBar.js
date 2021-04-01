@@ -6,6 +6,8 @@ import Awards from '../components/Awards'
 import TopBar from '../components/TopBar'
 import ProgressCourses from '../components/ProgressCourses'
 
+import logo from '../assets/images/skills/wywm.png'
+
 export default function NavBar() {
   const [overlay, setOverlay] = useState(false)
   const [settings, setSettings] = useState(false)
@@ -17,8 +19,9 @@ export default function NavBar() {
       <div class="h-screen bg-gray-200 flex flex-col">
         <header class="flex-shrink-0 relative h-16 bg-white flex items-center">
           <div class="absolute inset-y-0 left-0 md:static md:flex-shrink-0">
-            <a href="#" class="flex items-center justify-center h-16 w-16 bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-600 md:w-20">
-              <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark.svg?color=white" alt="Workflow" />
+            <a href="#" class="flex items-center justify-center h-16 w-16 bg-black focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-600 md:w-20">
+                <img class="p-3" src={logo} alt="Workflow" />
+
             </a>
           </div>
 
