@@ -5,9 +5,9 @@ import Progress from './components/Pages/Progress'
 function App() {
   return (
     <>
-      <div className="flex">
+      <div>
         <NavBar />
-        <Progress />
+        {/* <Progress /> */}
       </div>
     </>
   );

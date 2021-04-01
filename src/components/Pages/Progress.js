@@ -13,7 +13,7 @@ export default function Progress() {
         <div>
           <TopBar />
         </div>
-        <div className="container mx-auto">
+        <div className="">
           <div>
             <h1 className="text-4xl my-9 font-extrabold text-cardTitle">Progress</h1>
           </div>

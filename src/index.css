@@ -4,3 +4,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+.overlay{
+  @apply hidden sm:block sm:fixed sm:inset-0 sm:bg-gray-600 sm:bg-opacity-75;
+}

@@ -5,7 +5,7 @@ export default function Statistics() {
   const [progress, setProgress] = useState(50)
   return (
     <div>
-      <div className="flex flex-col justify-between bg-cardBg h-96 shadow-md rounded-t-md">
+      <div className="flex flex-col justify-between bg-cardBg shadow-md rounded-t-md">
         <div className="flex justify-between items-center">
           <h3 className="m-5 text-xl font-semibold text-cardTitle">Statistics</h3>
           <h5 className="m-5 text-cardSub">More</h5>
