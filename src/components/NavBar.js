@@ -134,7 +134,7 @@ export default function NavBar() {
                   </div>
                 </div>
               </div>
-              <div class="max-w-8xl mx-auto py-3 px-2 sm:px-4">
+              <div class="max-w-8xl mx-auto py-3 px-2 xsm:px-4">
                 <a href="#" class="block rounded-md py-2 px-3 text-base font-medium text-gray-900 hover:bg-gray-100">Inboxes</a>
 
                 <a href="#" class="block rounded-md py-2 pl-5 pr-3 text-base font-medium text-gray-500 hover:bg-gray-100">Technical Support</a>
@@ -223,9 +223,9 @@ export default function NavBar() {
 
 
 
-            <div className="container mx-auto mt-10">
+            <div className="sm:container sm:mx-auto lg:mt-10">
 
-              <div className="grid  md:grid-cols-1 xl:grid-cols-2 grid-rows-1 gap-4">
+              <div className="grid xxsm:grid-cols-1 xxsm:grid-rows-1 xl:grid-cols-2 md:gap-4">
                 <Statistics />
                 <div className="grid  grid-cols-1 grid-rows-2 gap-4">
                   <Skills />

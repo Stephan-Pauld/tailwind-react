@@ -26,6 +26,11 @@ module.exports = {
     },
     screens: {
       'hide': '1px',
+      'xxsm': '320px',
+      // => @media (min-width: 320px) { ... }
+      'xsm': '530px',
+      // => @media (min-width: 530px) { ... }
+
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
 
@@ -40,6 +45,10 @@ module.exports = {
 
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
+    },
+    scale: {
+      'mobile': '2.5',
+      '150': '1.5',
     },
 
   },

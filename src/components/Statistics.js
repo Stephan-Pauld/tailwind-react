@@ -10,7 +10,7 @@ export default function Statistics() {
           <h3 className="m-5 text-xl font-semibold text-cardTitle">Statistics</h3>
           <h5 className="m-5 text-cardSub">More</h5>
         </div>
-        <div className="flex justify-center items-center w-52 m-auto">
+        <div className="flex justify-center items-center xxsm:w-36 md:w-52 m-auto mb-5">
           <CircularProgressbar
             value={progress}
             text={''}
@@ -36,7 +36,7 @@ export default function Statistics() {
             })}
           />
         </div>
-        <div className="flex justify-around items-end mb-10">
+        <div className="flex justify-around items-end mb-5">
           <div>
             <div className="flex items-center justify-start">
               <div className="w-3 h-3 bg-wyBlue rounded-xl mt-1 mr-3" />
@@ -60,12 +60,12 @@ export default function Statistics() {
           </div>
         </div>
       </div>
-      <div className="md:flex justify-between bg-gray-100 p-5 rounded-b-md">
-        <button onClick={() => setProgress(35)} className="shadow-xl transition duration-700 ease-in-out bg-gray-500 hover:bg-gray-400 w-40 rounded-md text-white py-2 font-semibold" >Click For 35%</button>
+      <div className="flex flex-row justify-around bg-gray-100 p-5 rounded-b-md">
+        <button onClick={() => setProgress(35)} className="shadow-xl transition duration-700 ease-in-out bg-gray-500 hover:bg-gray-400 xxsm:w-20 xsm:w-28 sm:w-40 xxsm:rounded-sm xsm:rounded-md text-white py-2 font-semibold" >Click For 35%</button>
 
-        <button onClick={() => setProgress(75)} className="shadow-xl transition duration-700 ease-in-out bg-gray-500 hover:bg-gray-400 w-40 rounded-md text-white py-2 font-semibold" >Click For 75%</button>
+        <button onClick={() => setProgress(75)} className="shadow-xl transition duration-700 ease-in-out bg-gray-500 hover:bg-gray-400 xxsm:w-20 xsm:w-28 sm:w-40 xxsm:rounded-sm xsm:rounded-md text-white py-2 font-semibold" >Click For 75%</button>
 
-        <button onClick={() => setProgress(5)} className="shadow-xl transition duration-700 ease-in-out bg-gray-500 hover:bg-gray-400 w-40 rounded-md text-white py-2 font-semibold" >Click For 5%</button>
+        <button onClick={() => setProgress(5)} className="shadow-xl transition duration-700 ease-in-out bg-gray-500 hover:bg-gray-400 xxsm:w-20 xsm:w-28 sm:w-40 xxsm:rounded-sm xsm:rounded-md text-white py-2 font-semibold" >Click For 5%</button>
       </div>
     </div>
   )

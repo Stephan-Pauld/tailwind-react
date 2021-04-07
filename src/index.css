@@ -9,3 +9,7 @@
 .overlay{
   @apply hidden sm:block sm:fixed sm:inset-0 sm:bg-gray-600 sm:bg-opacity-75;
 }
+
+.skill-badges{
+  @apply xxsm:w-10 md:w-14 transition duration-500 ease-in-out transform md:hover:scale-150 xxsm:hover:scale-mobile;
+}
