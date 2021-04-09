@@ -22,15 +22,9 @@ export default function Awards() {
                 <p className="text-cardSub xxsm:text-sm mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus voluptates nulla officiis.</p>
                 <div className=" w-11/12 bg-gray-400 rounded mb-4">
                   <div className="h-2 w-52 bg-buttonBg rounded">
-
-
-
                   </div>
-
                 </div>
-
               </div>
-
               <div className="flex h-full items-end mb-2">
                 <h6 className="text-cardSub xxsm:mb-1 xsm:mb-7">75%</h6>
               </div>
